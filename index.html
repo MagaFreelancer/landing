@@ -1,322 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/main.css">
-      <title>Document</title>
-   </head>
-   <body>
-      <div class="wrapper">
-         <header class="header">
-            <div class="container header__container">
-               <nav class="header__nav">
-                  <a href="#" class="header__logo">
+
+<head>
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/media.css">
+
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container header__container">
+            <nav class="header__nav">
+               <a href="#" class="header__logo">
                   <img src="./images/logo.svg" alt="Логотип компании">
-                  </a>
-                  <ul class="header__menu">
-                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">О нас</a>
-                     </li>
-                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">Товары</a>
-                     </li>
-                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">Контакты</a>
-                     </li>
-                  </ul>
-                  <div class="header__burger" id="burger">
-                     <span class="header__burger-line"></span>
-                     <span class="header__burger-line"></span>
-                     <span class="header__burger-line"></span>
-                  </div>
-               </nav>
-            </div>
-         </header>
-         <main class="main">
-            <section class="hero">
-               <div class="hero__container">
-                  <div class="hero__content">
-                     <h1 class="hero__title">
-                        <span>
+               </a>
+               <ul class="header__menu">
+                  <li class="header__menu-item">
+                     <a href="#about" class="header__menu-link">О нас</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a href="#categories" class="header__menu-link">Товары</a>
+                  </li>
+                  <li class="header__menu-item">
+                     <a href="#footer" class="header__menu-link">Контакты</a>
+                  </li>
+               </ul>
+
+               <div class="header__burger" id="burger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+
+            </nav>
+         </div>
+      </header>
+      <main class="main">
+         <section class="hero" id="hero">
+            <div class="hero__container">
+               <div class="hero__content">
+                  <h1 class="hero__title">
+                     <span>
                         комплексные
-                        </span>
-                        поставки для вашего бизнеса
-                     </h1>
-                     <p class="hero__descr">Предлагаем услуги по комплексному снабжению организаций. Широкий
-                        ассортимент поставляемых хозяйственных, бытовых и канцелярских товаров. Выгодные условия
-                        доставки и оплаты, оптимальные цены.
-                     </p>
-                     <div class="hero__btns">
-                        <button class="hero__button button button--primary">Связаться с нами</button>
-                        <button class="hero__button button button--secondary">Узнать больше</button>
-                     </div>
-                  </div>
-                  <div class="hero__image">
-                     <img src="./images/hero-bg.jpg" alt="Фоновое изображение секции Hero">
+                     </span>
+                     поставки для вашего бизнеса
+                  </h1>
+                  <p class="hero__descr">Предлагаем услуги по комплексному снабжению организаций. Широкий
+                     ассортимент поставляемых хозяйственных, бытовых и канцелярских товаров. Выгодные условия
+                     доставки и оплаты, оптимальные цены.
+                  </p>
+                  <div class="hero__btns">
+                     <button class="hero__button button button--primary">Связаться с нами</button>
+                     <button class="hero__button button button--secondary">Узнать больше</button>
                   </div>
                </div>
-            </section>
-            <section class="about">
-               <div class="container about__container">
-                  <ul class="about__list">
-                     <li class="about__list-item about__list-item--product">
-                        <h3 class="about__list-title">Широкий ассортимент
-                           товаров
-                        </h3>
-                     </li>
-                     <li class="about__list-item about__list-item--delivery">
-                        <h3 class="about__list-title">Оперативная доставка по всей стране</h3>
-                     </li>
-                     <li class="about__list-item about__list-item--approach">
-                        <h3 class="about__list-title">Индивидуальный подход к каждому клиенту</h3>
-                     </li>
-                  </ul>
-                  <div class="about__image">
-                     <img src="./images/about/1.jpg" alt="Изображение секции О нас">
-                  </div>
-                  <div class="about__info">
-                     <h2 class="about__title">о нас</h2>
-                     <p class="about__descr">
-                        Мы стремимся обеспечивать наших партнеров лучшими материалами и инструментами, помогая им
-                        эффективно и удобно решать задачи любого масштаба.
-                        <strong>
+               <div class="hero__image">
+                  <img src="./images/hero-bg.jpg" alt="Фоновое изображение секции Hero">
+               </div>
+            </div>
+         </section>
+         <section class="about" id="about">
+            <div class="container about__container">
+               <ul class="about__list">
+                  <li class="about__list-item about__list-item--product">
+                     <h3 class="about__list-title">Широкий ассортимент
+                        товаров
+                     </h3>
+                  </li>
+                  <li class="about__list-item about__list-item--delivery">
+                     <h3 class="about__list-title">Оперативная доставка по всей стране</h3>
+                  </li>
+                  <li class="about__list-item about__list-item--approach">
+                     <h3 class="about__list-title">Индивидуальный подход к каждому клиенту</h3>
+                  </li>
+               </ul>
+               <div class="about__image">
+                  <img src="./images/about/1.jpg" alt="Изображение секции О нас">
+               </div>
+               <div class="about__info">
+                  <h2 class="about__title">о нас</h2>
+                  <p class="about__descr">
+                     Мы стремимся обеспечивать наших партнеров лучшими материалами и инструментами, помогая им
+                     эффективно и удобно решать задачи любого масштаба.
+                     <strong>
                         Наша миссия — стать связующим звеном между качеством и успешным бизнесом наших клиентов,
                         создавая надежные и взаимовыгодные отношения.
-                        </strong>
-                        Мы придерживаемся принципов качества, гибкости и надежности, работая только с проверенными
-                        поставщиками и адаптируя условия сотрудничества под индивидуальные задачи каждого клиента.
-                        Благодаря профессионализму и вниманию к деталям, мы всегда готовы предложить оптимальные
-                        решения, на которые можно положиться.
-                     </p>
-                  </div>
-               </div>
-            </section>
-            <section class="categories">
-               <div class="container categories__container">
-                  <div class="categories__heading">
-                     <h2 class="categories__title">
-                        Категории товаров
-                     </h2>
-                     <p class="categories__descr">
-                        Наш ассортимент позволяет нам закрывать потребности клиентов комплексно и экономить их время
-                        на поиске и логистике. Наличие разнообразных категорий делает наше предложение особенно
-                        выгодным для крупных сетей, которым важно получать все необходимые позиции от одного
-                        поставщика с гарантией качества и оперативной поставкой.
-                     </p>
-                  </div>
-                  <ul class="categories__list">
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Канцелярия
-                           </h5>
-                           <p class="categories__list-descr">
-                              Всё необходимое для эффективной организации офисного и учебного пространства.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/1.png" alt="Изображение категории Канцелярия">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Полиграфическая продукция
-                           </h5>
-                           <p class="categories__list-descr">
-                              Печатные материалы и упаковочные решения для брендинга и деловой документации.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/2.png"
-                                    alt="Изображение категории Полиграфическая продукция">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Химия для клининга
-                           </h5>
-                           <p class="categories__list-descr">
-                              Профессиональные средства для качественной уборки и поддержания чистоты.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/3.png"
-                                    alt="Изображение категории Химия для клининга">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Инструмент
-                           </h5>
-                           <p class="categories__list-descr">
-                              Надёжные и высококачественные инструменты для профессионального и бытового
-                              использования.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/4.png" alt="Изображение категории Инструмент">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Краска
-                           </h5>
-                           <p class="categories__list-descr">
-                              Широкий ассортимент лакокрасочной продукции для различных типов поверхностей и
-                              задач.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/5.png" alt="Изображение категории Краска">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                     <li class="categories__list-item">
-                        <a href="#">
-                           <h5 class="categories__list-title">
-                              Другое
-                           </h5>
-                           <p class="categories__list-descr">
-                              Разнообразные товары для комплексного обеспечения потребностей бизнеса и крупных
-                              сетей.
-                           </p>
-                           <div class="categories__list-bottom">
-                              <div class="categories__list-img">
-                                 <img src="images/categories/6.png" alt="Изображение категории Другое">
-                              </div>
-                           </div>
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </section>
-            <section class="contact">
-               <div class="contact__container">
-                  <div class="contact__left">
-                     <form action="" class="contact__form">
-                        <h3 class="contact__heading">
-                           Форма заявки
-                        </h3>
-                        <input type="text" class="contact__input input" placeholder="Ваше имя *">
-                        <div class="contact__doub">
-                           <input type="text" class="contact__input input" placeholder="Телефон *">
-                           <input type="text" class="contact__input input" placeholder="Email *">
-                        </div>
-                        <textarea class="contact__textarea input" placeholder="Сообщение (обращение)"></textarea>
-                        <p class="contact__text">Нажимая кнопку, я даю согласие на <a href="#">Обработку
-                           персональных
-                           данных</a> и
-                           соглашаюсь с <a href="#">Правилами</a> и <a href="#">Политикой конфиденциальности</a>
-                        </p>
-                        <button disabled class="contact__button button button--primary">Отправить запрос</button>
-                     </form>
-                  </div>
-                  <div class="contact__right">
-                     <div class="contact__info">
-                        <h2 class="contact__title">
-                           Получите персональное
-                           <span>
-                           предложение для вашего бизнеса!
-                           </span>
-                        </h2>
-                        <p class="contact__descr">
-                           Оставьте заявку, чтобы получить персональное предложение по комплексной поставке товаров
-                           для
-                           вашего бизнеса. Мы подберём оптимальные решения и оперативно свяжемся с вами для
-                           обсуждения
-                           деталей.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </main>
-         <footer class="footer">
-            <div class="container footer__container">
-               <div class="footer__col">
-                  <h2 class="footer__title">контакты</h2>
-                  <address>
-                     <ul class="footer__list">
-                        <li class="footer__list-item">
-                           <strong>Адрес офиса:</strong>
-                           г. Москва, ул. Центральная, д. 12, оф. 45
-                        </li>
-                        <li class="footer__list-item">
-                           <strong>
-                           Телефон:
-                           </strong>
-                           <a href="tel:+74951234567">+7 (495)123-45-67</a>
-                        </li>
-                        <li class="footer__list-item">
-                           <strong>
-                           Электронная почта:
-                           </strong>
-                           <a href="mailto:info@companyname.ru">
-                           info@companyname.ru
-                           </a>
-                        </li>
-                        <li class="footer__list-item">
-                           <strong>
-                           Часы работы:
-                           </strong>
-                           Пн-Пт с 9:00 до 18:00
-                        </li>
-                     </ul>
-                  </address>
-                  <ul class="footer__socials">
-                     <li class="footer__socials-item">
-                        <a href="#" class="footer__socials-link button button--primary">Vk.com</a>
-                     </li>
-                     <li class="footer__socials-item">
-                        <a href="#" class="footer__socials-link button button--primary">Telegram</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="footer__info">
-                  <ul class="footer__menu">
-                     <li class="footer__menu-item">
-                        <a href="#" class="footer__menu-link">О нас</a>
-                     </li>
-                     <li class="footer__menu-item">
-                        <a href="#" class="footer__menu-link">Товары</a>
-                     </li>
-                     <li class="footer__menu-item">
-                        <a href="#" class="footer__menu-link">Контакты</a>
-                     </li>
-                  </ul>
-                  <div class="footer__logo">
-                     <a href="#">
-                     <img src="./images/logo-white.svg" alt="Логотип компании в футере">
-                     </a>
-                  </div>
-                  <p class="footer__text">
-                     ООО "Имя Компании", ИНН: 1234567890, ОГРН: 9876543210
-                     Юридический адрес: 119019, г. Москва, ул. Примерная, д. 25, стр. 1
-                     <a href="#">
-                     Политика конфиденциальности
-                     </a>
-                  </p>
-                  <p class="footer__copyright">
-                     © 2024 ООО "Имя Компании". Все права защищены.
+                     </strong>
+                     Мы придерживаемся принципов качества, гибкости и надежности, работая только с проверенными
+                     поставщиками и адаптируя условия сотрудничества под индивидуальные задачи каждого клиента.
+                     Благодаря профессионализму и вниманию к деталям, мы всегда готовы предложить оптимальные
+                     решения, на которые можно положиться.
                   </p>
                </div>
             </div>
-         </footer>
-      </div>
-      <script src="./js/script.js"></script>
-   </body>
+         </section>
+         <section class="categories" id="categories">
+            <div class="container categories__container">
+               <div class="categories__heading">
+                  <h2 class="categories__title">
+                     Категории товаров
+                  </h2>
+                  <p class="categories__descr">
+                     Наш ассортимент позволяет нам закрывать потребности клиентов комплексно и экономить их время
+                     на поиске и логистике. Наличие разнообразных категорий делает наше предложение особенно
+                     выгодным для крупных сетей, которым важно получать все необходимые позиции от одного
+                     поставщика с гарантией качества и оперативной поставкой.
+                  </p>
+               </div>
+               <ul class="categories__list">
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Канцелярия
+                     </h5>
+                     <p class="categories__list-descr">
+                        Всё необходимое для эффективной организации офисного и учебного пространства.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/1.png" alt="Изображение категории Канцелярия">
+                        </div>
+                     </div>
+
+                  </li>
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Полиграфическая продукция
+                     </h5>
+                     <p class="categories__list-descr">
+                        Печатные материалы и упаковочные решения для брендинга и деловой документации.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/2.png" alt="Изображение категории Полиграфическая продукция">
+                        </div>
+                     </div>
+
+                  </li>
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Химия для клининга
+                     </h5>
+                     <p class="categories__list-descr">
+                        Профессиональные средства для качественной уборки и поддержания чистоты.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/3.png" alt="Изображение категории Химия для клининга">
+                        </div>
+                     </div>
+
+                  </li>
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Инструмент
+                     </h5>
+                     <p class="categories__list-descr">
+                        Надёжные и высококачественные инструменты для профессионального и бытового
+                        использования.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/4.png" alt="Изображение категории Инструмент">
+                        </div>
+                     </div>
+
+                  </li>
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Краска
+                     </h5>
+                     <p class="categories__list-descr">
+                        Широкий ассортимент лакокрасочной продукции для различных типов поверхностей и
+                        задач.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/5.png" alt="Изображение категории Краска">
+                        </div>
+                     </div>
+
+                  </li>
+                  <li class="categories__list-item">
+
+                     <h5 class="categories__list-title">
+                        Другое
+                     </h5>
+                     <p class="categories__list-descr">
+                        Разнообразные товары для комплексного обеспечения потребностей бизнеса и крупных
+                        сетей.
+                     </p>
+                     <div class="categories__list-bottom">
+                        <div class="categories__list-img">
+                           <img src="images/categories/6.png" alt="Изображение категории Другое">
+                        </div>
+                     </div>
+
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="contact" id="contact">
+            <div class="contact__container">
+               <div class="contact__left">
+                  <form action="" class="contact__form">
+                     <h3 class="contact__heading">
+                        Форма заявки
+                     </h3>
+                     <input type="text" id="name" class="contact__input input" placeholder="Ваше имя *">
+                     <div class="contact__doub">
+                        <input type="text" id="tel" class="contact__input input" placeholder="Телефон *">
+                        <input type="text" id="email" class="contact__input input" placeholder="Email *">
+                     </div>
+                     <textarea class="contact__textarea input" id="message"
+                        placeholder="Сообщение (обращение)"></textarea>
+                     <p class="contact__text">Нажимая кнопку, я даю согласие на <a href="#">Обработку
+                           персональных
+                           данных</a> и
+                        соглашаюсь с <a href="#">Правилами</a> и <a href="#">Политикой конфиденциальности</a>
+                     </p>
+                     <button disabled id="submit" class="contact__button button button--primary">Отправить
+                        запрос</button>
+                  </form>
+               </div>
+               <div class="contact__right">
+                  <div class="contact__info">
+                     <h2 class="contact__title">
+                        Получите персональное
+                        <span>
+                           предложение для вашего бизнеса!
+                        </span>
+                     </h2>
+                     <p class="contact__descr">
+                        Оставьте заявку, чтобы получить персональное предложение по комплексной поставке товаров
+                        для
+                        вашего бизнеса. Мы подберём оптимальные решения и оперативно свяжемся с вами для
+                        обсуждения
+                        деталей.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer" id="footer">
+         <div class="container footer__container">
+            <div class="footer__col">
+               <h2 class="footer__title">контакты</h2>
+               <address>
+                  <ul class="footer__list">
+                     <li class="footer__list-item">
+                        <strong>Адрес офиса:</strong>
+                        г. Москва, ул. Центральная, д. 12, оф. 45
+                     </li>
+                     <li class="footer__list-item">
+                        <strong>
+                           Телефон:
+                        </strong>
+                        <a href="tel:+74951234567">+7 (495)123-45-67</a>
+                     </li>
+                     <li class="footer__list-item">
+                        <strong>
+                           Электронная почта:
+                        </strong>
+                        <a href="mailto:info@companyname.ru">
+                           info@companyname.ru
+                        </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <strong>
+                           Часы работы:
+                        </strong>
+                        Пн-Пт с 9:00 до 18:00
+                     </li>
+                  </ul>
+               </address>
+               <ul class="footer__socials">
+                  <li class="footer__socials-item">
+                     <a href="#" class="footer__socials-link button button--primary">Vk.com</a>
+                  </li>
+                  <li class="footer__socials-item">
+                     <a href="#" class="footer__socials-link button button--primary">Telegram</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__info">
+               <ul class="footer__menu">
+                  <li class="footer__menu-item">
+                     <a href="#about" class="footer__menu-link">О нас</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#categories" class="footer__menu-link">Товары</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#footer" class="footer__menu-link">Контакты</a>
+                  </li>
+               </ul>
+               <div class="footer__logo">
+                  <a href="#">
+                     <img src="./images/logo-white.svg" alt="Логотип компании в футере">
+                  </a>
+               </div>
+               <p class="footer__text">
+                  ООО "Имя Компании", ИНН: 1234567890, ОГРН: 9876543210
+                  Юридический адрес: 119019, г. Москва, ул. Примерная, д. 25, стр. 1
+                  <a href="#">
+                     Политика конфиденциальности
+                  </a>
+               </p>
+               <p class="footer__copyright">
+                  © 2024 ООО "Имя Компании". Все права защищены.
+               </p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="./js/script.js"></script>
+</body>
+
 </html>
